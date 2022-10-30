@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".history">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="516dp"
+        android:layout_height="487dp"
+        app:srcCompat="@drawable/bgpurple"
+        tools:layout_editor_absoluteX="-53dp"
+        tools:layout_editor_absoluteY="-8dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/card"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="187dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="117dp"
+        android:layout_height="68dp"
+        android:backgroundTint="@color/purple_200"
+        android:text="QR Scan"
+        tools:layout_editor_absoluteX="246dp"
+        tools:layout_editor_absoluteY="452dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="140dp"
+        android:layout_height="71dp"
+        android:text="Transfer"
+        android:backgroundTint="@color/purple_200"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="452dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="310dp"
+        android:layout_height="73dp"
+        android:text="Button"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="560dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
